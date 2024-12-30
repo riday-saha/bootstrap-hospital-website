@@ -1,0 +1,49 @@
+:root{
+    --paragraph-font:Roboto, sans-serif;
+    --heading-font:Exo,sans-serif;
+    --primary-color:#223A66;
+    --second-color:#fff;
+    --thired-color:#E12454;
+    --second-bgcolor:#F4F9FC;
+    --paragraph-color:rgb(111,139,164);
+}
+
+.contact-two{
+    text-align: center;
+    border: 5px solid #EEF2F6;
+    padding: 50px 0;
+}
+
+.contact-two i{
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: #e12454;
+}
+
+.contact-two h5{
+    font-size: 20px;
+    font-family: var(--heading-font);
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 15px;
+}
+
+.contact-two p{
+    font-family: var(--paragraph-font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(111, 139, 164);
+}
+
+#contact-form form input{
+    font-family: var(--paragraph-font);
+    font-weight: 400;
+    background: #F4F9FC;
+}
+
+#contact-form form textarea{
+    font-family: var(--paragraph-font);
+    font-weight: 400;
+    background: #F4F9FC;
+}

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/icofont@1.0.0/dist/icofont.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/doctors.css">
+    <title>Health Care | Doctors</title>
+</head>
+<body>
+
+    <div id="navigation-menu">
+        <div class="container-fluid">
+            <div class="container pad-x">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-8">
+                        <div class="first-menu">
+                            <i class="fa-solid fa-envelope"><a href="">support@care.com</a></i>
+                            <i class="fa-solid fa-location-dot ms-sm-3 ms-md-3"><a href="">Address Ta-134/A, New York, USA</a></i>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <p class="first-call">Call Now : 823-4565-13456</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="main-menu">
+        <nav class="navbar navbar-expand-lg bg-body-transparent">
+            <div class="container pad-x">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="Logo" class="d-inline-block align-text-top">
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="department.html">Department</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="doctors.html">Doctors</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </div>
+                                    <!-- menu end -->
+
+    <div id="about-hero">
+        <div class="container pad-x">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="about">
+                        <h2>Specalized doctors</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about-specialist">
+        <div class="container pad-x pad-y">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="ab-spe-head">
+                        <h2>Doctors</h2>
+                        <p>We provide a wide range of creative services adipisicing elit. Autem maxime rem modi eaque, voluptate. Beatae officiis neque</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div id="myBtnContainer" class="text-center mb-4">
+                    <button class="btn filter-button active" onclick="filterSelection('all')"> All Department</button>
+                    <button class="btn filter-button" onclick="filterSelection('cardio')"> Cardiology</button>
+                    <button class="btn filter-button" onclick="filterSelection('dental')"> Dental</button>
+                    <button class="btn filter-button" onclick="filterSelection('neurology')"> Neurology</button>
+                    <button class="btn filter-button" onclick="filterSelection('medicine')"> Medicine</button>
+                    <button class="btn filter-button" onclick="filterSelection('pediatric')"> Pediatric</button>
+                    <button class="btn filter-button" onclick="filterSelection('trauma')"> Traumatology</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column cardio">
+                  <div class="content">
+                    <img src="images/doctors/1.jpg" alt="Mountains" style="width:100%">
+                    <a href="">Thomas Henry</a>
+                    <p>Cardiology</p>
+                  </div>
+                </div>
+                <div class="column cardio">
+                  <div class="content">
+                    <img src="images/doctors/2.jpg" alt="Lights" style="width:100%">
+                    <a href="">Harrision Samuel</a>
+                    <p>Cardiology</p>
+                  </div>
+                </div>
+                <div class="column cardio">
+                  <div class="content">
+                    <img src="images/doctors/3.jpg" alt="Nature" style="width:100%">
+                    <a href="">James</a>
+                    <p>Cardiology</p>
+                  </div>
+                </div>
+              
+                <div class="column dental">
+                  <div class="content">
+                    <img src="images/doctors/4.jpg" alt="Car" style="width:100%">
+                    <a href="">John</a>
+                    <p>Dental</p>
+                  </div>
+                </div>
+                <div class="column dental">
+                  <div class="content">
+                    <img src="images/doctors/2.jpg" alt="Car" style="width:100%">
+                    <a href="">Samuel</a>
+                    <p>Dental</p>
+                  </div>
+                </div>
+              
+                <div class="column neurology">
+                  <div class="content">
+                    <img src="images/doctors/1.jpg" alt="People" style="width:100%">
+                    <a href="">Thomas</a>
+                    <p>Neurology</p>
+                  </div>
+                </div>
+                <div class="column neurology">
+                  <div class="content">
+                    <img src="images/doctors/3.jpg" alt="People" style="width:100%">
+                    <a href="">Edward</a>
+                    <p>Neurology</p>
+                  </div>
+                </div>
+                <div class="column medicine">
+                  <div class="content">
+                    <img src="images/doctors/3.jpg" alt="People" style="width:100%">
+                    <a href="">Samuel</a>
+                    <p>Medicine</p>
+                  </div>
+                </div>
+                <div class="column medicine">
+                    <div class="content">
+                      <img src="images/doctors/2.jpg" alt="People" style="width:100%">
+                      <a href="">Ragnar</a>
+                      <p>Medicine</p>
+                    </div>
+                </div>
+                <div class="column medicine">
+                    <div class="content">
+                      <img src="images/doctors/4.jpg" alt="People" style="width:100%">
+                      <a href="">Lothbrock</a>
+                      <p>Medicine</p>
+                    </div>
+                </div>
+                <div class="column pediatric">
+                    <div class="content">
+                      <img src="images/doctors/4.jpg" alt="People" style="width:100%">
+                      <a href="">John</a>
+                      <p>Pediatric</p>
+                    </div>
+                </div>
+                <div class="column trauma">
+                    <div class="content">
+                      <img src="images/doctors/3.jpg" alt="People" style="width:100%">
+                      <a href="">Smith</a>
+                      <p>Traumatology</p>
+                    </div>
+                </div>
+                <div class="column trauma">
+                    <div class="content">
+                      <img src="images/doctors/1.jpg" alt="People" style="width:100%">
+                      <a href="">Devid</a>
+                      <p>Traumatology</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer-banner">
+        <div class="container pad-x pad-y">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="ft-banner">
+                        <h2>We are pleased to offer <br> you the chance to have the healthy</h2>
+                        <a href="" class="btn btn-primary">GET APPOINTMENT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer start -->
+    <div id="footer">
+        <div class="container pad-x pad-y">
+            <div class="row">
+                <div class="col-md-6 col-lg-5">
+                    <div class="ft-one">
+                        <img src="images/logo.png" alt="">
+                        <p>Tempora dolorem voluptatum nam vero assumenda voluptate, facilis ad eos obcaecati tenetur veritatis eveniet distinctio possimus.</p>
+                        <div class="social-menu">
+                            <ul class="social nav">
+                                <li><a href=""><i class="icofont-facebook"></i></a></li>
+                                <li><a href=""><i class="icofont-twitter"></i></a></li>
+                                <li><a href=""><i class="icofont-linkedin"></i></a></li>
+                            </ul>                              
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <div class="ft-two">
+                        <h4 class="ft-head">Department</h4>
+                            <ul class="ft-menu">
+                                <li class=""><a href="" class="">Surgery</a></li>
+                                <li class=""><a href="" class="">Women's Health</a></li>
+                                <li class=""><a href="" class="">Radiology</a></li>
+                                <li class=""><a href="" class="">Cardioc</a></li>
+                                <li class=""><a href="" class="">Medicine</a></li>
+                            </ul>                            
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-2">
+                    <div class="ft-two ft-md">
+                        <h4 class="ft-head">Support</h4>
+                        <ul class="ft-menu">
+                            <li>
+                                <a href="">Terms & Conditions</a>
+                            </li>
+                            <li>
+                                <a href="">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="">Company Support</a>
+                            </li>
+                            <li>
+                                <a href="">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="">Company License</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="ft-three ft-md">
+                        <h4 class="ft-head">Get in Touch</h4>
+                        <div class="ft-contact">
+                            <p>Support Available for 24/7</p>
+                            <h4>Support@email.com</h4><br>
+                            <p>Mon to Fri : 08:30 - 18:00</p>
+                            <h4>+23-456-6588</h4>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="developer">
+        <div class="container pad-x">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <p class="Copyright">© Copyright Reserved to <span class="fw-bold">Novena</span></p>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <p class="dev-nam">Developed By <span class="fw-bold"><a href="">Hridoy</a></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- back to top button -->
+    <a href="#"><i class="icofont-arrow-up"></i></a>
+
+       
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    
+    <script>
+
+        filterSelection("all") // Execute the function and show all columns
+            function filterSelection(c) {
+            var x, i;
+            x = document.getElementsByClassName("column");
+            if (c == "all") c = "";
+            // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+            for (i = 0; i < x.length; i++) {
+                w3RemoveClass(x[i], "show");
+                if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+            }
+            }
+
+            // Show filtered elements
+            function w3AddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) {
+                element.className += " " + arr2[i];
+                }
+            }
+            }
+
+            // Hide elements that are not selected
+            function w3RemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                while (arr1.indexOf(arr2[i]) > -1) {
+                arr1.splice(arr1.indexOf(arr2[i]), 1);
+                }
+            }
+            element.className = arr1.join(" ");
+            }
+
+            // Add active class to the current button (highlight it)
+            var btnContainer = document.getElementById("myBtnContainer");
+            var btns = btnContainer.getElementsByClassName("btn");
+            for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function(){
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+            }
+
+
+
+        $(document).ready(function(){
+            // Back to Top scroll
+            $(window).scroll(function() {
+                var showAfter = 200;
+                if ($(this).scrollTop() >= showAfter) { 
+                    $('.icofont-arrow-up').css('visibility', 'visible');
+                    $('.icofont-arrow-up').css('opacity', '1');
+                } else {
+                    $('.icofont-arrow-up').css('visibility', 'hidden');
+                    $('.icofont-arrow-up').css('opacity', '0');
+                }
+            });
+
+            // Click event to scroll to top
+            $('.icofont-arrow-up').click(function() {
+                $('html, body').animate({ scrollTop: 0 }, 800);
+                return false;
+            });
+        });
+
+    </script>
+</body>
+</html>

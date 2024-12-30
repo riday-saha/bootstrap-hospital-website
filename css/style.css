@@ -5,6 +5,7 @@
     --second-color:#fff;
     --thired-color:#E12454;
     --second-bgcolor:#F4F9FC;
+    --paragraph-color:rgb(111,139,164);
 }
 
 *{
@@ -17,6 +18,12 @@ a{
 
 p{
     margin: 0;
+    font-family: var(--paragraph-font);
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--heading-font);
+    font-weight: 700;
 }
 
 .pad-x{
@@ -631,6 +638,10 @@ p{
     float: right;
 }
 
+.dev-nam a{
+    color: var(--primary-color);
+}
+
 
 /* css for back to top button  */
 .icofont-arrow-up {
@@ -908,3 +919,4 @@ p{
         padding: 0 30px;
     }
 }
+/* END OF HOME PAGE CSS CODE */
